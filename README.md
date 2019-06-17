@@ -22,7 +22,7 @@ TODO tests
 
 ### Building
 
-TODO API key
+Update NY times API key as needed in `index.html`
 
 ```
 yarn build

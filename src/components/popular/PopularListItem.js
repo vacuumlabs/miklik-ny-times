@@ -8,6 +8,7 @@ import Typography from '@material-ui/core/Typography'
 import RightIcon from '@material-ui/icons/ChevronRight'
 import DateIcon from '@material-ui/icons/DateRange'
 import React from 'react'
+import PropTypes from 'prop-types';
 import { ItemPropType } from '../../app/popular/popularTypes';
 
 const useStyles = makeStyles(theme => ({
@@ -20,13 +21,16 @@ const useStyles = makeStyles(theme => ({
     display: 'flex',
     alignItems: 'center',
   },
+  dateIcon: {
+    paddingRight: theme.spacing(1),
+  },
 }))
 
-export default function PopularListItem({ item }) {
+export default function PopularListItem({ item, onSelect }) {
   const classes = useStyles()
 
   return (
-    <ListItem button>
+    <ListItem button onClick={onSelect}>
       <ListItemAvatar>
         <Avatar alt="Thumbnail" src={item.thumbnail} />
       </ListItemAvatar>
@@ -38,7 +42,7 @@ export default function PopularListItem({ item }) {
               {item.authors}
             </Typography>
             <span className={classes.date}>
-              <DateIcon fontSize="small" />
+              <DateIcon fontSize="small" className={classes.dateIcon} />
               {item.date}
             </span>
           </span>
@@ -53,4 +57,5 @@ export default function PopularListItem({ item }) {
 
 PopularListItem.propTypes = {
     item: ItemPropType.isRequired,
+    onSelect: PropTypes.func.isRequired, 
 }
