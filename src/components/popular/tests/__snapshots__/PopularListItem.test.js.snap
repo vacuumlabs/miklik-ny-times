@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PopularListItem prints one list item 1`] = `
+<div>
+  <li
+    class="MuiListItem-container"
+  >
+    <div
+      aria-disabled="false"
+      class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button MuiListItem-secondaryAction"
+      role="button"
+      tabindex="0"
+    >
+      <div
+        class="MuiListItemAvatar-root"
+      >
+        <div
+          class="MuiAvatar-root"
+        >
+          <img
+            alt="Thumbnail"
+            class="MuiAvatar-img"
+            src="https://static01.nyt.com/images/2018/06/04/us/05xp-graduation2/05xp-graduation2-thumbStandard.jpg"
+          />
+        </div>
+      </div>
+      <div
+        class="MuiListItemText-root MuiListItemText-multiline"
+      >
+        <span
+          class="MuiTypography-root MuiListItemText-primary MuiTypography-body1"
+        >
+          Kentucky Crowd Cheers Valedictorian’s Trump Quote, Then Learns Obama Said It
+        </span>
+        <p
+          class="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary"
+        >
+          <span
+            class="makeStyles-secondary-1"
+          >
+            <span
+              class="MuiTypography-root MuiTypography-body2 MuiTypography-colorTextPrimary"
+            >
+              By LAURA M. HOLSON
+            </span>
+            <span
+              class="makeStyles-date-2"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root makeStyles-dateIcon-3 MuiSvgIcon-fontSizeSmall"
+                focusable="false"
+                role="presentation"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M9 11H7v2h2v-2zm4 0h-2v2h2v-2zm4 0h-2v2h2v-2zm2-7h-1V2h-2v2H8V2H6v2H5c-1.11 0-1.99.9-1.99 2L3 20c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11z"
+                />
+                <path
+                  d="M0 0h24v24H0z"
+                  fill="none"
+                />
+              </svg>
+              2018-06-04
+            </span>
+          </span>
+        </p>
+      </div>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </div>
+    <div
+      class="MuiListItemSecondaryAction-root"
+    >
+      <svg
+        aria-hidden="true"
+        class="MuiSvgIcon-root"
+        focusable="false"
+        role="presentation"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+        />
+        <path
+          d="M0 0h24v24H0z"
+          fill="none"
+        />
+      </svg>
+    </div>
+  </li>
+</div>
+`;

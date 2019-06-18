@@ -9,10 +9,10 @@ export function getPopularArticles() {
   }`
   return fetch(url)
     .then(response => response.json())
-    .then(parseBody)
+    .then(transformPopularResponse)
 }
 
-function parseBody(body) {
+export function transformPopularResponse(body) {
   if (body.status !== 'OK') {
     throw new Error(makeError(body))
   }
