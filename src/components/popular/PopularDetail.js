@@ -13,7 +13,7 @@ export default function PopularDetail({ item, onClose }) {
     <Card>
       <CardHeader
         avatar={
-          <IconButton onClick={onClose}>
+          <IconButton onClick={onClose} aria-label="Back">
             <BackIcon />
           </IconButton>
         }

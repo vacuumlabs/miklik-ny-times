@@ -22,7 +22,7 @@ function usePopular() {
       .then(result => {
         setRequestState({ list: result, status: RequestStatus.OK })
       })
-      .catch(error => setRequestState({ status: RequestStatus.ERROR, error }))
+      .catch(error => setRequestState({ status: RequestStatus.ERROR, error, list: [] }))
   }, [])
 
   return requestState

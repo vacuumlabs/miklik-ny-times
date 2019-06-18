@@ -50,7 +50,7 @@ export default function ButtonAppBar({ currentUser }) {
             <IconButton
               className={classes.menuButton}
               color="inherit"
-              aria-label="Search"
+              aria-label="More actions"
             >
               <MoreIcon />
             </IconButton>

@@ -18,7 +18,13 @@ To start application in development mode:
 yarn start
 ```
 
-TODO tests
+Running tests:
+
+```
+yarn test 
+# or alternatively for CI/coverage
+CI=true yarn test --coverage
+```
 
 ### Building
 

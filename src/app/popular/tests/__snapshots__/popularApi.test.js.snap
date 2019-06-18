@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getPopularArticles properly extract response from API 1`] = `
+Object {
+  "abstract": "A high school valedictorian quoted Trump. The crowd roared. Then: “Just kidding,” he said. “That was Barack Obama.”",
+  "authors": "By LAURA M. HOLSON",
+  "date": "2018-06-04",
+  "id": 100000005935794,
+  "thumbnail": "https://static01.nyt.com/images/2018/06/04/us/05xp-graduation2/05xp-graduation2-thumbStandard.jpg",
+  "title": "Kentucky Crowd Cheers Valedictorian’s Trump Quote, Then Learns Obama Said It",
+}
+`;
