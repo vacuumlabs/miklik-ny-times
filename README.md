@@ -41,4 +41,5 @@ And deploy the directory `build/` to your favourite web server.
 - Injection of API key (build / server time)
 - Routing as application will grow
 - Polyfills (e.g. fetch)
+- Virtualized list (e.g. via `react-window`)
 - I18n
