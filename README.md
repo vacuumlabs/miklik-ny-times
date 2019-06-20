@@ -24,6 +24,7 @@ Running tests:
 yarn test 
 # or alternatively for CI/coverage
 CI=true yarn test --coverage
+# or on windows: set CI=true&&yarn test --coverage
 ```
 
 ### Building
