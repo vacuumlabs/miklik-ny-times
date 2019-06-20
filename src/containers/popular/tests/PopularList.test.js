@@ -1,5 +1,5 @@
 import React from 'react'
-import { render, within, fireEvent, prettyDOM } from '@testing-library/react'
+import { render, within, fireEvent } from '@testing-library/react'
 import { commonSetup } from '../../../tests/testUtils'
 import { fullResponse } from '../../../tests/apiFixtures'
 import PopularList from '../PopularList'
